@@ -1,7 +1,6 @@
 <?php
 ob_start();
-$user = $_POST['b1'];
-$user1=strtolower($user);
+$user1 = $_POST['b1'];
 
 include_once('../../database.php');
 include_once('time.php');

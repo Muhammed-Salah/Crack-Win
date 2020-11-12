@@ -65,7 +65,7 @@ body {
 <div id="container">
    </div>
    <div id="body"> <div class="congrats">
-  <h1>Great job!<br>score: 70/70<br>Thank you for your active participation :)</h1>
+  <h1>Conguratulations!!</h1><h1 style="font-size: 41px;"><br><br>You have successfully completed</h1><h1 style="font-size: 44px;"><br><br><br><br>See you at AKCSSC'20</h1>
 </div></div>
    <div id="footer"><img src="../../img/pp1.jpg" height="100%" width="100%">
 </div>

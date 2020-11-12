@@ -8,7 +8,7 @@ session_start();
 
 
 	$url=$_POST['b1'];
-	$url=strtolower($url);
+	$url=strtoupper($url);
 		$connction=login123();
 			$quary=('select * from answer where no=1;');
 				$exe=mysqli_query($connction,$quary);

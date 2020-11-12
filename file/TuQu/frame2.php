@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="cssjs/codemirror.css">
   <link rel="stylesheet" href="cssjs/default.css">
 <center>
-<img src="c.jpg"></center>
+<img src="c-new.jpg" style="width: 50%;"></center>
 
   
 

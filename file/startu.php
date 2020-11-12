@@ -1,32 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 	<script language="javascript">
@@ -95,7 +67,7 @@ $a=randomPassword();
 				<fieldset>
 					<legend>Let's start</legend>
 <form name="signupform">
-<center><h4>Welcome to Crack & Win by IEEE MEA SB Can you crack all 7 levels of this online logic simulator?<br> Your account password has been sent to your mobile number</h4></center>
+<center><h4>Welcome to Decrypto, a pre-event for AKSCSSC'20 by IEEE MEA SB <br> Are you up for the challenge?</h4></center>
 					<div class="form-group">
 						<label for="name">Your Account Password</label>
 						<input type="text" name="pass" placeholder="Password" value=<?php echo $a; ?> required readonly  class="form-control" />

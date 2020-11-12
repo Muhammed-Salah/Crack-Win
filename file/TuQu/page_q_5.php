@@ -12,16 +12,11 @@ if(($_SESSION['answer']==null)||($_SESSION['answer0']==null)||($_SESSION['answer
 
 
 
-
-
-
-
-
-
-
-
 <html>
 <head>
+	<style>
+		
+	</style>
 	<title>Crack & Win</title>
 	 <link rel="icon" href="../../img/logo.png" type="image/x-icon" width='100%'>
 </head>

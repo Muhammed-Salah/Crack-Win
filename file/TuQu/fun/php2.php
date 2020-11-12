@@ -43,7 +43,7 @@ $connction=login123();
 							$exe_array1=mysqli_fetch_array($exe1);
 							if($exe_array1['point']==40)
 							{
-								$timeq1=("update student set point='50' where student.phno='$ph';");
+								$timeq1=("update student set point='60' where student.phno='$ph';");
 													$insert1=mysqli_query($connction,$timeq1);
 													mysqli_query($connction,"UPDATE `student` SET `lasttime` =now() WHERE `student`.`phno` ='$ph'");
 
@@ -65,9 +65,10 @@ $connction=login123();
 
 				session_start();
 				$_SESSION['answer2']=$exe_array['q2'];
+				$_SESSION['answer4']=$exe_array['q2'];
 				$_SESSION['time_1']=date('h:i:s');
 			
-				header('location:../page_q_4.php');
+				header('location:../page_q_5.php');
 			}
 
 			else
