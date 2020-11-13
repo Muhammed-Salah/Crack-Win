@@ -41,13 +41,13 @@ Password : win
 	<script src="basith.js"></script>
 
 	<script src="hint.js"></script>
-	<title>Crack & Win</title>
+	<title>Decrypto</title>
 	<link rel="icon" href="../../img/logo.png" type="image/x-icon" width='100%'>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="css/a.css" type="text/css" />
 	<style>
-		
+
 	</style>
 </head>
 
@@ -65,7 +65,7 @@ Password : win
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="page_q_2.php">
-					<h3><b>&nbsp;Crack & Win</b></h3>
+					<h3><b>&nbsp;Decrypto</b></h3>
 				</a>
 			</div>
 			<!-- menu items -->
@@ -111,11 +111,13 @@ Password : win
 			</from>
 		</center><br><br><br><br><br><br><br><br>
 
-		</div><br><br><br><br><br><br><br><br><br>
-		<center>Powered by<br>
-<img src="../../img/pp1.jpg" height="100%" width="100%">
-		<script src="js/jquery-1.10.2.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		</div>
+		<div style="position: fixed; left: 0; bottom: -5px; text-align: center; padding:0px;">
+						<center>Powered by<br>
+						<img src="../../img/pp1.jpg"  width="100%">
+					</div>
+			<script src="js/jquery-1.10.2.js"></script>
+			<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

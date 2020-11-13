@@ -18,7 +18,7 @@ include_once('fun/user.php');
 
 <head>
 	<style>
-		
+
 	</style>
 	<script type="text/javascript">
 
@@ -26,7 +26,7 @@ include_once('fun/user.php');
 	<script src="basith.js"></script>
 
 
-	<title>Crack & Win</title>
+	<title>Decrypto</title>
 	<link rel="icon" href="../../img/logo.png" type="image/x-icon" width='100%'>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
@@ -47,7 +47,7 @@ include_once('fun/user.php');
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="page_q_.php">
-					<h3><b>&nbsp;Crack & Win</b></h3>
+					<h3><b>&nbsp;Decrypto</b></h3>
 				</a>
 			</div>
 			<!-- menu items -->
@@ -100,16 +100,18 @@ include_once('fun/user.php');
 							</font>
 						</b></h5>
 
-					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></from>
+					</from>
 				</center>
 
 				</div><br><br><br>
 			</center>
 			<br><br><br>
-			<center>Powered by<br>
-<img src="../../img/pp1.jpg" height="100%" width="100%">
-			<script src="js/jquery-1.10.2.js"></script>
-			<script src="js/bootstrap.min.js"></script>
+			<div style="position: fixed; left: 0; bottom: -5px; text-align: center; padding:0px;">
+						<center>Powered by<br>
+						<img src="../../img/pp1.jpg"  width="100%">
+					</div>
+				<script src="js/jquery-1.10.2.js"></script>
+				<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

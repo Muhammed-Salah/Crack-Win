@@ -27,7 +27,7 @@ if (($_SESSION['answer'] == null) || ($_SESSION['answer0'] == null) || ($_SESSIO
 	<script src="basith.js"></script>
 
 
-	<title>Crack & Win</title>
+	<title>Decrypto</title>
 	<link rel="icon" href="../../img/logo.png" type="image/x-icon" width='100%'>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
@@ -48,7 +48,7 @@ if (($_SESSION['answer'] == null) || ($_SESSION['answer0'] == null) || ($_SESSIO
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="page_q_4.php">
-					<h3><b>&nbsp;Crack & Win</b></h3>
+					<h3><b>&nbsp;Decrypto</b></h3>
 				</a>
 			</div>
 			<!-- menu items -->
@@ -103,9 +103,9 @@ if (($_SESSION['answer'] == null) || ($_SESSION['answer0'] == null) || ($_SESSIO
 			</center>
 			<br><br><br>
 			<center>Powered by<br>
-<img src="../../img/pp1.jpg" height="100%" width="100%">
-			<script src="js/jquery-1.10.2.js"></script>
-			<script src="js/bootstrap.min.js"></script>
+				<img src="../../img/pp1.jpg" height="100%" width="100%">
+				<script src="js/jquery-1.10.2.js"></script>
+				<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
