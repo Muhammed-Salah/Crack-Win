@@ -7,24 +7,6 @@
 		l = b1.toLowerCase();
 		document.signupform.b1.value = l;
 	}
-
-	<?php
-	function randomPassword()
-	{
-		$alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
-		$pass = array(); //remember to declare $pass as an array
-		$alphaLength = strlen($alphabet) - 1; //put the length -1 in cache
-		for ($i = 0; $i < 5; $i++) {
-			$n = rand(0, $alphaLength);
-			$pass[] = $alphabet[$n];
-		}
-		return implode($pass); //turn the array into a string
-	}
-
-	$a = randomPassword();
-
-
-	?>
 </script>
 
 <head>
@@ -61,7 +43,7 @@
 		</div>
 	</nav>
 
-	<div class="container">
+	<div class="container" style="padding-top:10%;">
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4 well">
 
@@ -69,33 +51,20 @@
 					<legend>Let's start</legend>
 					<form name="signupform">
 						<center>
-							<h4>Welcome to Decrypto, a pre-event for AKSCSSC'20 by IEEE MEA SB <br> Are you up for the challenge?</h4>
+							<h4>Welcome to Decrypto, a pre-event for AKCSSC'20 by IEEE MEA SB <br> Are you up for the challenge?</h4>
 						</center>
-						<div class="form-group">
-							<label for="name">Your Account Password</label>
-							<input type="text" name="pass" placeholder="Password" value=<?php echo $a; ?> required readonly class="form-control" />
-							<span class="text-danger"></span>
-						</div>
 
-
-
-
-
-
-
-
-
-						<div class="form-group">
-							<a href="start.php?phno=<?php echo $_GET['b2'];  ?>"><input onclick="checking();" type="button" name="signup" value="Start Now" class="btn btn-primary" /></a>
-						</div>
-
+						<center>
+							<div class="form-group">
+								<a href="start.php?phno=<?php echo $_GET['b2'];  ?>"><input onclick="checking();" type="button" name="signup" value="Start Now" class="btn btn-primary" /></a>
+							</div>
+						</center>
 				</fieldset>
 
 				<span class="text-success"></span>
 				<span class="text-danger"></span>
 			</div>
 		</div>
-
 	</div>
 
 	<script src="js/jquery-1.10.2.js"></script>
@@ -115,6 +84,7 @@ $phno = $_GET['b2'];
 $name1 = $_GET['b1'];
 $name2 = "";
 $name3 = "";
+$a=$_GET['p1'];
 $bach = $_GET['b4'];
 $connect = login123();
 /* check if him already registered*/

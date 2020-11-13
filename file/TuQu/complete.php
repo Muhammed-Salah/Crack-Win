@@ -6,7 +6,7 @@ if ($_SESSION['complete'] == null) {
    header('location:../../');
 }
 include_once('fun/user.php');
-
+session_destroy();
 ?>
 
 
@@ -36,7 +36,7 @@ include_once('fun/user.php');
       }
 
       #header {
-         background: ;
+         /* background: ; */
          padding: 10px;
       }
 
@@ -67,13 +67,11 @@ include_once('fun/user.php');
 
 <script src="js/index.js"></script>
 
-<div id="container">
-</div>
 <div id="body">
    <div class="congrats">
       <h1>Conguratulations!!</h1>
-      <h1 style="font-size: 41px;"><br><br>You have successfully completed</h1>
-      <h1 style="font-size: 44px;"><br><br><br><br>See you at AKCSSC'20</h1>
+      <h1 style="font-size: 35px;"><br><br>IF YOU ARE FIRST TO COMPLETE, YOUR TREASURE IS ON IT'S WAY</h1>
+      <h1 style="font-size: 44px;"><br><br><br><br><br>See you at AKCSSC'20</h1>
    </div>
 </div>
 <div id="footer"><img src="../../img/pp1.jpg" height="100%" width="100%">

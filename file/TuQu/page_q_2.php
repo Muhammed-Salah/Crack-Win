@@ -10,18 +10,8 @@ if (($_SESSION['answer'] == null) || ($_SESSION['answer0'] == null) || ($_SESSIO
 ?>
 
 <?php
-setcookie('hint', 'enjoy+your+sugar+cookie', time() + (86400 * 30), "/");
+setcookie('hint', 'enjoyyoursugarcookie', time() + (86400 * 30), "/");
 ?>
-
-
-
-
-
-
-
-
-
-
 
 
 <!DOCTYPE html>
@@ -89,11 +79,7 @@ setcookie('hint', 'enjoy+your+sugar+cookie', time() + (86400 * 30), "/");
 			<font color='white'>Key Not Found ?
 		</h3>
 		</font><br>
-		<center>
-			<h4>
-				<font color='white'>Hint:background.jpg
-			</h4>
-			</font>
+		
 
 
 			<form action="fun/php3.php" method='post'>

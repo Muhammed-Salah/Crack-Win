@@ -66,10 +66,6 @@ if (($_SESSION['answer'] == null) || ($_SESSION['answer0'] == null)) {
 	<br><br><br><br>
 
 	<center>
-		<h3>
-			<font color='blue'>Identify
-		</h3>
-		</font>
 		<img src="sage.jpeg" width="22.5%" height="auto">
 		<img src="mkr.jpeg" width="20%" height="auto">
 

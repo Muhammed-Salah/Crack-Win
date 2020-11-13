@@ -113,9 +113,9 @@ Password : win
 
 		</div>
 		<div style="position: fixed; left: 0; bottom: -5px; text-align: center; padding:0px;">
-						<center>Powered by<br>
-						<img src="../../img/pp1.jpg"  width="100%">
-					</div>
+			<center>Powered by<br>
+			<img src="../../img/pp1.jpg"  width="100%">
+		</div>
 			<script src="js/jquery-1.10.2.js"></script>
 			<script src="js/bootstrap.min.js"></script>
 </body>

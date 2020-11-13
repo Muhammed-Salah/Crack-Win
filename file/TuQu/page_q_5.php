@@ -77,7 +77,7 @@ if (($_SESSION['answer'] == null) || ($_SESSION['answer0'] == null) || ($_SESSIO
 		<center>
 			<form action="fun/php5.php" method='post' target="_parent" style="padding-top:10%">
 
-				<input type="text" name="b1" placeholder="Content" required>
+				<input type="text" name="b1" placeholder="" required>
 
 				<center>
 					<center><input onclick="checking()" type="submit" name="login" value="SUBMIT" class="btn btn-primary" />

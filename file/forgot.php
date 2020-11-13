@@ -46,14 +46,6 @@
 								<span class="text-danger"></span>
 							</div>
 
-
-
-
-
-
-
-
-
 							<div class="form-group">
 								<input onclick="checking();" type="submit" name="signup" value="Reset" class="btn btn-primary" />
 							</div>

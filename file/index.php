@@ -7,6 +7,36 @@
 		l = b1.toLowerCase();
 		document.signupform.b1.value = l;
 	}
+
+	// Function to check Whether both passwords 
+	// is same or not. 
+	function confirmpassword()
+	{
+		var pass,cpass;
+
+		pass=document.signupform.p1.value;
+		cpass=document.signupform.p2.value;
+		if(pass==cpass)
+		{
+			document.getElementById("1").innerHTML = "<font color='green'>Password matches</font>";
+			document.getElementById("myBtn").disabled = false;
+		}
+		else if((pass=='')||(cpass==''))
+		{
+			document.getElementById("1").innerHTML = "<font color='green'></font>";
+			document.getElementById("myBtn").disabled = true;
+		}
+		else if((cpass==''))
+		{
+			document.getElementById("1").innerHTML = "<font color='green'></font>";
+			document.getElementById("myBtn").disabled = true;
+		}
+		else
+			{
+			document.getElementById("1").innerHTML = ("<font color='RED'><b>Password does not match</font></b></font>");
+			document.getElementById("myBtn").disabled = true;
+			}
+	}
 </script>
 
 <head>
@@ -46,7 +76,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4 well">
-				<form role="form" action="startu.php" method="get" name="signupform">
+				<form role="form" action="startu.php" oninput='confirmpassword()' method="get" name="signupform">
 					<fieldset>
 						<legend>Let's start</legend>
 						<form name="signupform">
@@ -62,8 +92,19 @@
 								<input type="number" name="b2" min="5000000000" max="9999999999" placeholder="Phone Number" required class="form-control" />
 								<span class="text-danger"></span>
 							</div>
+							
+							<div class="form-group">
+								<label for="name">Password</label>
+								<input type="password" name="p1" placeholder="" required class="form-control" />
+								<span class="text-danger"></span>
+							</div>
 
-
+							<div class="form-group">
+								<label for="name">Confirm Password</label>
+								<input type="password" name="p2" placeholder="" required class="form-control" />
+								<span class="text-danger"></span>
+							</div>
+							<p id="1"></p>
 							<div class="form-group">
 								<label for="name">College</label>
 								<input type="text" name="b4" placeholder="MEA ENGINEERING COLLEGE" required class="form-control" />
@@ -74,7 +115,7 @@
 
 
 							<div class="form-group">
-								<input onclick="checking();" type="submit" name="signup" value="Register" class="btn btn-primary" />
+								<input onclick="checking();" type="submit" name="signup" id="myBtn" value="Register" class="btn btn-primary"/>
 							</div>
 					</fieldset>
 				</form>
