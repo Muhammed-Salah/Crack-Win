@@ -65,8 +65,8 @@
 
 
 							<div class="form-group">
-								<label for="name">Class</label>
-								<input type="text" name="b4" placeholder="S1-CS1" required class="form-control" />
+								<label for="name">College</label>
+								<input type="text" name="b4" placeholder="MEA ENGINEERING COLLEGE" required class="form-control" />
 								<span class="text-danger"></span>
 							</div>
 

@@ -119,10 +119,10 @@ setcookie('hint', 'enjoy+your+sugar+cookie', time() + (86400 * 30), "/");
 										<a href="background.jpg"> <img src="background.jpg" width="30%" height="30%"></a>
 
 
-										<br><br><br><br><br><br><br><br><br><br><br><br><br><br></font>
+										</font>
 								</b></h5>
 
-							</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							</div>
 							<div style="position: fixed; left: 0; bottom: -5px; text-align: center; padding:0px;">
 								<center>Powered by<br>
 								<img src="../../img/pp1.jpg"  width="100%">
