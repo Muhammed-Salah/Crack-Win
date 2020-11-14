@@ -76,7 +76,7 @@ if ($_SESSION['answer'] == null) {
 
 		<form action="fun/php0.php" method='post'>
 
-			<input type="text" name="b1" placeholder="Full Name" required>
+			<input type="text" name="b1" required>
 
 			<center>
 				<center><input onclick="checking()" type="submit" name="login" value="SUBMIT" class="btn btn-primary" />
@@ -106,11 +106,11 @@ if ($_SESSION['answer'] == null) {
 				</div>
 			</center>
 			<div style="position: fixed; left: 0; bottom: -5px; text-align: center; padding:0px;">
-						<center>Powered by<br>
-						<img src="../../img/pp1.jpg"  width="100%">
-					</div>
-				<script src="js/jquery-1.10.2.js"></script>
-				<script src="js/bootstrap.min.js"></script>
+				<center>Powered by<br>
+					<img src="../../img/pp1.jpg" width="100%">
+			</div>
+			<script src="js/jquery-1.10.2.js"></script>
+			<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
